@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Dosis:700|Noto+Sans&display=swap');
+
+.navbar {
+    background-color: #F7EDE5;
+    box-shadow: 1px 1px 5px #2D1C2C;
+}
+
+body {
+    background-color: #F7EDE5;
+    border-left: 20px solid #FFBA4D;
+    border-right: 20px solid #FFBA4D;
+}
+
+#main {
+    background-color: #F7EDE5;
+    /* margin: 0 3% 0 12.5%; */
+}
+
+#top-para {
+    padding-top: 10%;
+}
+
+#final-para {
+    padding-top: 5%;
+}
+
+.btn {
+    background-color: #FFBA4D;
+}
+
+#carousel-text {
+    text-align: center;
+}
+
+footer {
+    background-color: #2D1C2C;
+    box-shadow: 1px 1px 5px #2D1C2C;
+    color: white;
+    margin: 0;
+    padding: 0.5% 0 0.5% 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2D1C2C;
+    font-family: 'Dosis', sans-serif;
+}
+
+p, a{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #F76200;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #2D1C2C;
+}
+
+.text-muted {
+    color: #E2D9D3!important;
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        padding-top: 8%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        padding-top: 15%;
+    }
+}
